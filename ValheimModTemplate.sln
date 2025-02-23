@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaldorsMerchantManual", "HaldorsMerchantManual\HaldorsMerchantManual.csproj", "{E9E895FA-7067-40CF-956A-6617E99A57FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SleepyStructures", "SleepyStructures\SleepyStructures.csproj", "{E9E895FA-7067-40CF-956A-6617E99A57FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
