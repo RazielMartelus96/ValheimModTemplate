@@ -25,9 +25,9 @@ public class EnRouteManager
     public void SetupNearbyRpcMethods()
     {
         NearbyRPCMethodHashCodes.Clear();
-        string[] names = ConfigHandler.Instance.NearbyRPCMethodNames.Value.Split(new char[] { ',' }, System.StringSplitOptions.RemoveEmptyEntries);
+        var names = ConfigHandler.Instance.NearbyRPCMethodNames.Value.Split([','], System.StringSplitOptions.RemoveEmptyEntries);
 
-        foreach (string name in names) {
+        foreach (var name in names) {
             NearbyRPCMethodByHashCode[name.GetStableHashCode()] = name;
         }
 
