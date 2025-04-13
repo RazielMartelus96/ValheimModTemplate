@@ -41,7 +41,4 @@
             <HintPath>/home/jordan/.config/r2modmanPlus-local/Valheim/profiles/ValheimDev/BepInEx/plugins/MMHOOK/Managed/MMHOOK_assembly_valheim.dll</HintPath>
         </Reference>
     </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Model\" />
-    </ItemGroup>
 </Project>
